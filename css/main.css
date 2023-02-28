@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: "open sans", sans-serif;
+  background: #f1f1f1;
+  overflow-x: hidden;
+}
+/*
+.color p{
+  color: #dce7f0;
+}*/
+
+h1 ,h3 {
+  color: #00467f;
+  text-transform: uppercase;
+}
+/*
+a {
+  color: #f1f1f1; - ath! 
+}
+*/
+p {
+  font-size: 0.9em;
+  color: #00467f;
+  line-height: 1.6em;
+}
+/* ath það er ekki gott að stíla tög - nota klasa 
+section {
+  padding: 4em 2em;
+  margin: 3em 0;
+}
+*/
+nav {
+  z-index: 99;
+  position: relative;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 0.5em;
+}
+
+nav ul a {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+nav .container .menu-btn {
+  display: none;
+}
+
+.mynd {
+  height: 100vh;
+  background: url(../myndir/254381.jpg) center no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 2em;
+}
+.content {
+    margin: 0;
+    padding-right: 2em;
+}
+
+.content p{
+  text-align: right;
+}
+
+header h1 {
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.1em;
+  text-align: right;
+  padding-top: 1em; /* ath */
+  margin: 0em;
+}
+
+.social {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+footer{
+  padding-bottom: 3em;
+}
+
+@media screen and (min-width: 37.5em) {
+  .content {
+    margin: 0;
+    padding: 0 3em;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .content {
+    padding-top: 4em;
+  }
+  header h1 {
+    font-size: 2.7em;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .content {
+    padding: 4em 4em 0 0;
+  }
+  header h1 {
+    font-size: 3em;
+  }
+}
+
+@media (min-width: 80em) {
+  .content {
+    padding: 5em 5em 0 0;
+  }
+}

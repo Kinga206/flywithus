@@ -1,0 +1,79 @@
+/* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+table {
+    border-collapse: collapse;
+    width: 100%; /*ath*/
+  }
+  th,
+  td {
+    padding: .8em;
+    text-align: left;
+    border-bottom: 1px solid #c4c3c3; }
+  
+  tbody tr:nth-child(odd) {
+      background-color: #d4fdfd;
+    }
+  caption {
+    font-size: 1.2em;
+    color: rgb(21, 71, 146);
+    background-color: rgb(106, 180, 255);
+  }
+  tfoot {
+    background-color: #d4fdfd;
+  }
+
+  /* töflumixið með max-width */
+
+  @media screen and (max-width: 37.5em) {
+
+    .schedule {
+      padding: 0 .5em ;
+    }
+    .schedule thead,
+    .schedule tbody th {
+      display:none;
+    }
+    
+    .schedule tr {
+      /*border-bottom: 1px solid #ddd;*/
+      display: block;
+      margin: .4em 0;
+    }
+    
+    .schedule td {
+      display: block;
+      text-align: right;
+      padding: 2em 1.4em .5em .5em;
+      width:96%;
+    }
+    
+    .schedule td::before {
+      content: attr(data-label);
+      float: left;
+    }
+    .schedule h4 {
+      margin-top: -.1em;
+      font-size: 1.1em;
+      padding-bottom: .2em;
+    }
+  }
+
+  
+  /* Bigger than 600 */
+@media (min-width: 37.5em) {
+    .schedule table{
+      margin: 0 auto;
+    }
+    .schedule table{
+        margin: 4em auto 0 auto;
+        
+      } 
+  }
+    /* Bigger than 960 */
+@media (min-width: 60em) {
+
+    .schedule table{
+        margin: 6em auto 0 auto;
+        
+      } 
+  }

@@ -1,0 +1,20 @@
+h1 {
+    font-size: xx-large;
+    font-family: "open sans", sans-serif;
+    color: #00467f;
+}
+
+h2 {
+    font-family: "open sans", sans-serif;
+    color: #00467f;
+}
+
+body {
+    background-color: #f1f1f1;
+    background-size: auto;
+    font-family: "open sans", sans-serif;
+}
+
+.about {
+    font-size: large;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link rel="stylesheet" type="text/css" href="css/topmenu.css">
+    <link rel="stylesheet" type="text/css" href="css/ath.css">
+    <link rel="stylesheet" type="text/css" href="css/popup.css">
+    <link rel="stylesheet" type="text/css" href="css/test.css"-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Document</title>
+</head>
+<body id="top">
+    <header class="headnav">
+        <div class="logo">
+            <a href="index.html"><img src="myndir/icelandairlogo.jpg"  alt="Logo" class="logo"/></a>
+        </div>
+        <nav>
+        <input type="checkbox" id="toggle" class="menuInput">
+        <label for="toggle" class="menuLabel"><span class="icon-home"></span></label>
+        <div class="topmenu">
+            <a href="about.html">About us</a>
+            <a href="flights.html">Flights</a>
+            <a href="borga.html">Check in</a>
+            <a href="travel-info.html">Travel info</a>
+            <a href="#popup1">log in</a>
+        </div>
+        </nav>
+    </header>
+    <h1>hello</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid natus esse excepturi quos ullam neque, maxime vitae voluptate dolor ratione, nisi qui facilis veritatis, labore quia exercitationem maiores eveniet aut.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid natus esse excepturi quos ullam neque, maxime vitae voluptate dolor ratione, nisi qui facilis veritatis, labore quia exercitationem maiores eveniet aut.</p>
+ ath!
+ <section class="container col-2" id="where">
+    <section>
+      <article>
+        <h2>Harmonikkulisti</h2>
+        <p>Lorem, ipsum dolor <a href="https://code-boxx.com/simple-responsive-accordion-pure-css/">simple responsive accordion in pure css.</a> Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.</p>
+      </article>
+      <!-- FIRST TAB -->
+      <div class="tab">
+        <input id="tab-1r" type="radio" name="tabr">
+        <label for="tab-1r">Tab 1, Lorem ipsum dolor</label>
+        <div class="content"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, odio ex? Quasi libero eos earum suscipit perferendis quam omnis quis, nihil natus laborum, quia rerum possimus fugiat eligendi fugit tenetur?</p></div>
+      </div>
+
+      <!-- SECOND TAB -->
+      <div class="tab">
+        <input id="tab-2r" type="radio" name="tabr">
+        <label for="tab-2r">Tab 2, Adipisci, ut iste!</label>
+        <div class="content"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem quia voluptates rerum. Corporis sed ipsam recusandae, minima dolores, aperiam accusantium repudiandae expedita voluptatem quo, maxime ab provident. Adipisci, ut iste! </p></div>
+      </div>
+
+      <!-- THIRD TAB -->
+      <div class="tab">
+        <input id="tab-3r" type="radio" name="tabr">
+        <label for="tab-3r">Tab 3, porro incidunt tempora</label>
+        <div class="content"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum culpa velit omnis, explicabo eum quibusdam commodi dolore a, totam aperiam, tempore quisquam nesciunt enim iusto impedit consectetur porro incidunt tempora.</p></div>
+      </div>
+    </section>
+  </section>
+  <div id="popup1" class="overlay">
+    <div class="popup">
+      <div class="register">
+        <h3>Event of some Sort</h3>
+        <a class="close" href="/website/ath.html">×</a>
+        <div class="content">
+          <form action="/website/ath.html" method="GET">
+            <fieldset><!--nota klasa til að geta haft aðra forma með öðru útliti - sjá css-->
+                <label><!--autofocus-->
+                    <p><input type="text" name="nafn" placeholder="Full name" required="" title="Vinsamlegast skráið nafn"></p> <!--ATH! input hefur ekki lokunartag -->
+                </label>
+                <label>
+                    <p><input type="text" name="sími" placeholder="Telephone (7 digits)" title="Vinsamlegast skráið aðeins 7 tölustafi" required="" pattern="\d{3}(?:[\-\s]?)\d{4}"></p>
+                </label>    <!-- http://html5pattern.com/Phones "\d{3}(?:[\-\s]?)\d{4}" -->
+                <label>
+                    <input type="email" name="tölvupóstur" placeholder="Email address" required="">
+                  </label>
+                <label>
+                    <input type="submit" name="submit" value="Send">
+            </label></fieldset>
+        </form>            
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--link rel="stylesheet" type="text/css" href="css/about.css">
+<link rel="stylesheet" type="text/css" href="css/topmenu.css">
+<link rel="stylesheet" type="text/css" href="css/ath.css">
+<link rel="stylesheet" type="text/css" href="css/iconmoon.css">
+<link rel="stylesheet" type="text/css" href="css/animation.css"-->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<title>About us</title>
+<body>
+    <header class="headnav">
+        <div class="logo">
+            <a href="index.html"><img src="myndir/icelandairlogo.jpg"  alt="Logo" class="logo"/></a>
+        </div>
+        <nav>
+        <input type="checkbox" id="toggle" class="menuInput">
+        <label for="toggle" class="menuLabel"><span class="icon-home"></span></label>
+        <div class="topmenu">
+            <a href="about.html">About us</a>
+            <a href="flights.html">Flights</a>
+            <a href="borga.html">Check in</a>
+            <a href="travel-info.html">Travel info</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        </nav>
+    </header>
+    <!--auglýsing-->
+    <div class="discount">
+      <div class="animation">
+        <h3>20% discount on flights </h3>
+      </div>
+    </div>
+    <main class="container">
+      <h1>Book your flight</h1>
+    <div class="buy">
+      <form action="thank-you.html" method="GET">
+          <fieldset class="register">
+            <legend>Booking</legend>
+            <p>
+                Name:  
+                <input type="text" name="nafn" placeholder="Full name" required="" title="Vinsamlegast skráið nafn"> <!--ATH! input hefur ekki lokunartag -->
+            </p>
+              <p>Gender: 
+                <input type="radio" name="gender" value="male" id="male">
+                <label for="male">male</label> |
+                <input type="radio" name="gender" value="female" id="female"> 
+                <label for="female">female</label> |
+                <input type="radio" name="gender" value="non gender" id="non gender"> 
+                <label for="non gender">non gender</label> 
+              </p>
+              <p>
+                Card number:
+                <input type="text" name="card" placeholder="card number" title="please insert your card number" required pattern="[0-9]{4} *[0-9]{4} *[0-9]{4} *[0-9]{4}">
+              </p>
+              <p>
+                  Phone number: 
+                  <input type="text" name="sími" placeholder="Telephone (7 digits)" title="Vinsamlegast skráið aðeins 7 tölustafi" required="" pattern="\d{3}(?:[\-\s]?)\d{4}">
+              </p>    <!-- http://html5pattern.com/Phones "\d{3}(?:[\-\s]?)\d{4}" -->
+              <p>
+                Email: 
+                <input type="email" name="tölvupóstur" placeholder="Email address" required="">
+              </p>
+              <section class="col-3">
+                <p>
+                  Fjöldi ferðamanna: <input type="number">
+                </p>
+                <p>
+                  Dagsetning ferðar: 
+                    <input type="date">
+                </p>
+              </section>
+              <p>
+                  <!--https://www.w3schools.com/tags/att_textarea_rows.asp-->
+                  <textarea rows="4" name="comment" placeholder="Ábending - Comment"></textarea>
+              </p>
+              <p>
+                <input type="checkbox" name="postlist" value="OK" id="plist"> 
+                <label for="plist">Skráið mig á póstlistann</label> |
+                <input type="checkbox" name="subscription" value="OK" id="sub"> 
+                <label for="sub">Gerast áskrifandi </label>
+              </p>
+              
+              <p class="center"><input type="submit" name="submit" value="purchase"></p>
+          </fieldset>
+      </form>
+    </div>
+  </main>
+  <footer class="container">
+    <div class="social">
+        <span class="icon-facebook2"> Facebook</span>
+        <span class="icon-twitter"> Twitter</span>
+        <span class="icon-instagram"> Instagram</span>
+        <span class="icon-youtube"> YouTube</span>
+        <span class="icon-spotify"> Spotify</span>
+    </div>
+    </footer>
+</body>
+</html>
+
+<!--DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/booking.css">
+<link rel="stylesheet" type="text/css" href="css/topmenu.css">
+<link rel="stylesheet" type="text/css" href="css/iconmoon.css">
+<link rel="stylesheet" type="text/css" href="css/animation.css">
+<title>Booking</title>
+</head>
+<body>
+  <header class="headnav">
+    <div class="logo">
+        <a href="index.html"><img src="myndir/icelandairlogo.jpg"  alt="Logo" class="logo"/></a>
+    </div>
+    <nav>
+    <input type="checkbox" id="toggle" class="menuInput">
+    <label for="toggle" class="menuLabel"><span class="icon-home"></span></label>
+    <div class="topmenu">
+        <a href="about.html">About us</a>
+        <a href="flights.html">Flights</a>
+        <a href="borga.html">Check in</a>
+        <a href="travel-info.html">Travel info</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    </nav>
+  </header>
+  <div class="discount">
+  <footer>
+    <div class="social">
+      <span class="icon-facebook2"> Facebook</span>
+      <span class="icon-twitter"> Twitter</span>
+      <span class="icon-instagram"> Instagram</span>
+      <span class="icon-youtube"> YouTube</span>
+      <span class="icon-spotify"> Spotify</span>
+  </div>
+  </footer>
+</body>
+</html>

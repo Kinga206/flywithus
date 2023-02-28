@@ -1,0 +1,32 @@
+
+.discount {
+	background-color: steelblue;
+  position:relative; 
+  height: 2em;
+  overflow: hidden; /* ath! */
+  color: white;
+  margin-top:3em; /* ath! */
+  padding: .4em;
+}
+.animation div {
+  position: absolute;
+  color:white;
+  left:-15em;
+  z-index: 9;
+}
+.animation h3 {
+  display: inline-block;
+  width: 20em;
+}
+.animation {
+  position:absolute;
+  animation-name: example;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-direction: linear;  
+}
+
+@keyframes example {
+  0%   {left:-100%; top:0;}
+  100% {left:200%; top:0;}
+}
